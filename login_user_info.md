@@ -65,3 +65,35 @@ class Test
 | 7    | user             | 服务商操作员 |
 | 8    | user             | 商家操作员   |
 
+## 用户信息模拟
+
+```mysql
+INSERT INTO `tc`.`tc_user` (
+	`id`,
+	`password`,
+	`status`,
+	`login_time`,
+	`login_ip`,
+	`type`,
+	`phone`,
+	`name`,
+	`email`,
+	`relation_id`,
+	`token`
+)
+VALUES
+	(
+		'30',
+		'e10adc3949ba59abbe56e057f20f883e',
+		'1',
+		'0',
+		'0',
+		'2',
+		'18854121111',
+		NULL,
+		'1542142111@qq.com',
+		'40',
+		NULL
+	);
+```
+
