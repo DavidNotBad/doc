@@ -12,6 +12,14 @@
 | phone  | 电话号码 |      |
 | city  | 城市 |      |
 | zmf  | 芝麻分 |      |
+| bank_account  | 开户银行 |      |
+| bank_card_num  | 银行卡号 |      |
+| company_name  | 公司名称 |      |
+| profession  | 行业 |      |
+| career  | 职业 |      |
+| salary_range  | 薪资范围 |      |
+
+
 
 ## 用户列表
 | 模块                | 备注 |
